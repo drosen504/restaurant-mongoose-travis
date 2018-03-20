@@ -2,10 +2,3 @@ language: node_js
 node_js: node
 services:
 - mongodb
-deploy:
-  provider: heroku
-  api_key:
-    secure: I7qImyNdKrRjC1+5PgpV1/c9CHF9yDqludtub1KuRVierxIytBdO3yfM5ssXDOIJRjR7T2t1RvTPth6v7zuIpoiaf9+RM/vK79SE9chqCT++qckk3zFABu+n6egla6KPREEvpy8DLRVdEEe2dE2LY6METj/+Xj5+GDR/5lT+2ybxD7W8ZIsc6AAJojlZ7v869rCY17o+vD+7jig0NcA75SVnw+6s+1URnvpTpABPzkAmTDeZiR6FkcDocueA33C0n+mJAd14zNooHiDpT7+Y9azOWlXx/DESGhH6HJ7Y8qfsqatzeepaMDzbQL3u4EjCXPIRr1n23XD2SkARwDC5n68hcfD3LpsvoU2pAMpq46FIZe9MO+BJuKEtDK2S18cPThaoB2A5sDZd8F12/YBI5qr7rciGXbhfaUcJHcmTA6f7JYZW9cKIC2ImjZ2mK1DNlFResgYesGnTF0IO48PXKhH0Jn/DJvnMFLQzT+fDbdeIIX6bu3RrVr6xrM1K2tTvPvLLUgJydl29+qa2LBYvpeX0SShaHT8I8X3x+wLAilaOahFTOPCOTazDHS0YI5DLVLkDiEaDWNy+Z3SyyFdOATueChGSpRVCkVpda2yTx6i8ykXuzgDlNcWPO70/Z7oLsCVVXBedw784LktVTBO3NHDn6oPrY+E4DL0hEAbzik4=
-  app:  https://git.heroku.com/lit-island-75164.git
-  on:
-    repo: drosen504/restaurant-mongoose-travis
